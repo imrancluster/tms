@@ -17,17 +17,31 @@ To change the database info, open the settings.php file from sites/default/setti
 Then find the following code
 
 ```$databases = array (
+
   'default' => 
+  
   array (
+  
     'default' => 
+    
     array (
+    
       'database' => 'tms',
+      
       'username' => 'root',
+      
       'password' => '',
+      
       'host' => 'localhost',
+      
       'port' => '',
+      
       'driver' => 'mysql',
+      
       'prefix' => '',
+      
     ),
+    
   ),
+  
 );```
